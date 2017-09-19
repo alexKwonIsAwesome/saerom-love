@@ -7,8 +7,12 @@ export default class Landing extends Component {
                 <div className="landing-content">
 
                     <div className="content cover">
-                        <div className="cover-subtitle">새롬 + 혁우</div>
-                        <div className="cover-maintitle">100일간의 이야기</div>
+                        <div className="cover-dim">
+                            <div className="title-group">
+                                <div className="cover-subtitle">새롬 + 혁우</div>
+                                <div className="cover-maintitle">100일간의 이야기</div>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="content content-first">
@@ -20,7 +24,7 @@ export default class Landing extends Component {
 
                     <div className="content content-second">
                         <div className="content-title">새롬이는?</div>
-                        <div className="subcontent">
+                        <div className="subcontent subcontent-first">
                             <div className="subcontent-video">
                                 {/* Video */}                                
                             </div>
@@ -30,7 +34,7 @@ export default class Landing extends Component {
 
                         <div className="subcontent-separator" />
 
-                        <div className="subcontent">
+                        <div className="subcontent subcontent-second">
                             <div className="subcontent-left">
                                 <div className="subcontent-title">볼통통 귀여미</div>
                                 <div className="subcontent-description">언제나 동그란 입술과 볼살로 <br/>남친마음을 녹이는 귀여미죠!</div>
@@ -44,7 +48,7 @@ export default class Landing extends Component {
 
                         <div className="subcontent-separator" />
 
-                        <div className="subcontent">
+                        <div className="subcontent subcontent-third">
                             <div className="subcontent-left">
                                 <div className="subcontent-image">
                                     {/* Image Long */}      
@@ -61,7 +65,7 @@ export default class Landing extends Component {
 
                         <div className="subcontent-separator" />
 
-                        <div className="subcontent">
+                        <div className="subcontent subcontent-fourth">
                             <div className="subcontent-left">
                                 <div className="text-group">
                                     <div className="subcontent-title">먹방 여신</div>

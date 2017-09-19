@@ -1,0 +1,23 @@
+.landing-container .landing-content .content.cover {
+  position: relative;
+  height: 100vh;
+  background: no-repeat center 40%;
+  background-image: url("../assets/images/alexsaerom-cover.png");
+  background-size: cover;
+  text-align: center; }
+  .landing-container .landing-content .content.cover .cover-dim {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)); }
+    .landing-container .landing-content .content.cover .cover-dim .title-group {
+      padding-top: 15rem; }
+      .landing-container .landing-content .content.cover .cover-dim .title-group .cover-subtitle {
+        color: #FF745C;
+        font-family: "nanumBarunPen";
+        font-size: 4rem;
+        font-weight: 600;
+        margin-bottom: 1rem; }
+      .landing-container .landing-content .content.cover .cover-dim .title-group .cover-maintitle {
+        color: #fff;
+        font-family: "nanumBarunPen";
+        font-size: 8rem;
+        font-weight: 600; }
