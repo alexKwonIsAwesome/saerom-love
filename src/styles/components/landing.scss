@@ -14,14 +14,14 @@
                     padding-top: 15rem;
                     .cover-subtitle {
                         color: #FF745C;
-                        font-family: "nanumBarunPen";
+                        font-family: "Nanum Barun Pen";
                         font-size: 4rem;
                         font-weight: 600;
                         margin-bottom: 1rem;
                     }
                     .cover-maintitle {
                         color: #fff;
-                        font-family: "nanumBarunPen";
+                        font-family: "Nanum Barun Pen";
                         font-size: 8rem;
                         font-weight: 600;
                     }
@@ -30,86 +30,217 @@
         }
 
         .content.content-first {
+            text-align: center;
             .content-title {
-
+                margin-top: 10rem;
+                display: inline-block;
+                padding-bottom: 0.5rem;
+                color: #333;
+                font-family: "Nanum Barun Pen";
+                font-weight: 600;
+                font-size: 4rem;
+                border-bottom: 2px solid #333;
             }
             .content-slider {
-
+                height: 80rem;
             }
         }
         .content.content-second {
-            .content-title {
-
-            }
-
-            .subcontent-separator {
-
-            }
-
-            .subcontent.subcontent-first {
-                .subcontent-video {
-
+            background-color: #fafafa;
+            .content-wrapper {
+                max-width: 840px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                .content-title {
+                    margin-top: 10rem;
+                    display: inline-block;
+                    padding-bottom: 0.5rem;
+                    color: #333;
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 600;
+                    font-size: 4rem;
+                    border-bottom: 2px solid #333;
                 }
-                .subcontent-title {
-
+    
+                .subcontent-separator {
+                    width: 30rem;
+                    margin: 0 auto;
+                    background-color: rgba(170,170,170,0.5);
+                    height: 1px;
+                    // border-bottom: 1px solid #aaa;
                 }
-                .subcontent-description {
-
-                }
-            }
-
-            .subcontent.subcontent-second {
-                .subcontent-left {
-                    .subcontent-title {
-
+    
+                .subcontent.subcontent-first {
+                    padding-top: 10rem;
+                    padding-bottom: 20rem;
+                    .subcontent-video {
+                        margin-bottom: 5rem;
+                    }
+                    .subcontent-title { // 도수코 급
+                        font-family: "Nanum Pen Script";
+                        font-weight: 400;
+                        color: #FF745C;
+                        font-size: 4rem;
+                        margin-bottom: 2rem;
                     }
                     .subcontent-description {
-
+                        font-family: "Nanum Barun Pen";
+                        font-weight: 400;
+                        color: #333;
+                        font-size: 2rem;
                     }
                 }
-                .subcontent-right {
-                    .subcontent-image {
+    
+                .subcontent.subcontent-second {
+                    padding-top: 20rem;
+                    padding-bottom: 20rem;
+                    .subcontent-left {
+                        width: 50%;
+                        display: inline-block;
+                        float: left;
+                        .text-group {
+                            width: 50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 25rem;
+                            .subcontent-title { // 볼통통
+                                font-family: "Nanum Pen Script";
+                                font-weight: 400;
+                                color: #FF745C;
+                                font-size: 4rem;
+                                margin-bottom: 2rem;
+                                text-align: left;
+                            }
+                            .subcontent-description {
+                                font-family: "Nanum Barun Pen";
+                                font-weight: 400;
+                                color: #333;
+                                font-size: 2rem;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .subcontent-right {
+                        width: 50%;
+                        display: inline-block;
+                        .subcontent-image {
+                            text-align: left;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+    
+                .subcontent.subcontent-third {
+                    padding-top: 20rem;
+                    padding-bottom: 20rem;
+                    .subcontent-left {
+                        display: inline-block;
+                        width: 50%;
+                        .subcontent-image {
+                            padding-right: 1rem;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .subcontent-right {
+                        display: inline-block;
+                        width: 50%;
+                        vertical-align: top;
+                        .subcontent-image {
+                            padding-left: 1rem;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .text-group {
+                            margin-top: 4rem;
+                            text-align: right;
+                            .subcontent-title { // 스쿠터
+                                font-family: "Nanum Pen Script";
+                                font-weight: 400;
+                                color: #FF745C;
+                                font-size: 4rem;
+                                margin-bottom: 2rem;
+                            }
+                            .subcontent-description {
+                                font-family: "Nanum Barun Pen";
+                                font-weight: 400;
+                                color: #333;
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
 
+                .subcontent.subcontent-fourth {
+                    padding-top: 20rem;
+                    padding-bottom: 20rem;
+                    .subcontent-grid {
+                        .subcontent-grid-row {
+                            padding-bottom: 1rem;
+                            .subcontent-grid-column {
+                                width: 50%;
+                                float: left;
+                                .text-group {
+                                    padding-top: 14rem;
+                                    padding-left: 1rem;
+                                    text-align: center;
+                                    .subcontent-title {
+                                        font-family: "Nanum Pen Script";
+                                        font-weight: 400;
+                                        color: #FF745C;
+                                        font-size: 4rem;
+                                        margin-bottom: 2rem;
+                                    }
+                                    .subcontent-description {
+                                        font-family: "Nanum Barun Pen";
+                                        font-weight: 400;
+                                        color: #333;
+                                        font-size: 2rem;
+                                    }
+                                }
+                            }
+                            .subcontent-grid-column {
+                                width: 50%;
+                                float: left;
+                                .subcontent-image {
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .clear {
+                                clear: both;
+                            }
+                        }
+                        .subcontent-grid-row {
+                            padding-top: 1rem;
+                            .subcontent-grid-column {
+                                width: 50%;
+                                float: left;
+                                .subcontent-image {
+                                    .img {
+                                        width: 100%;
+                                    }
+                                }
+                                .subcontent-image:first-child{
+                                    padding-right: 1rem;
+                                }
+                                .subcontent-image:last-child {
+                                    padding-left: 1rem;
+                                }
+                            }
+                            .clear {
+                                clear: both;
+                            }
+                        }
                     }
                 }
             }
-
-            .subcontent.subcontent-third {
-                .subcontent-left {
-                    .subcontent-image {
-
-                    }
-                }
-                .subcontent-right {
-                    .text-group {
-                        .subcontent-title {
-
-                        }
-                        .subcontent-description {
-
-                        }
-                    }
-                }
-            }
-            
-            .subcontent.subcontent-fourth {
-                .subcontent-left {
-                    .text-group {
-                        .subcontent-title {
-
-                        }
-                        .subcontent-description {
-
-                        }
-                    }
-                }
-                .subcontent-right {
-                    .subcontent-image {
-
-                    }
-                }
-            }
-
         }
         .content.content-full.content-third {
             .content-full-subtext {
