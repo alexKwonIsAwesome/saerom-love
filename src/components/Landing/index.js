@@ -179,6 +179,11 @@ export default class Landing extends Component {
 
                     <div className="content content-fifth">
                     </div>
+                    <div className="footer">
+                        <div className="footer-content">
+                            Created by Hyeokwoo Alex Kwon
+                        </div>
+                    </div>
                 </div>
             </div>
         )

@@ -247,6 +247,7 @@ html {
 
 .landing-container .landing-content .content.content-fourth .content-wrapper {
   padding-top: 10rem;
+  padding-bottom: 10rem;
   max-width: 1280px; }
   .landing-container .landing-content .content.content-fourth .content-wrapper .text-group {
     text-align: center; }
@@ -270,6 +271,16 @@ html {
     margin: 0 auto;
     padding-top: 5rem;
     padding-bottom: 10rem; }
+
+.landing-container .landing-content .footer {
+  height: 2rem;
+  color: #bbb;
+  background-color: #f2f2f2;
+  text-align: center; }
+  .landing-container .landing-content .footer .footer-content {
+    line-height: 2rem;
+    vertical-align: middle;
+    font-family: "Helvetica"; }
 
 .story-content-slider .slick-initialized.slick-slider .slick-list {
   height: 60rem; }
