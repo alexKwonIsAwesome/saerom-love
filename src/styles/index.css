@@ -2,7 +2,7 @@
 @import url(~slick-carousel/slick/slick-theme.css);
 html {
   font-size: 10px;
-  width: 1280px; }
+  min-width: 1280px; }
 
 @font-face {
   font-family: "Nanum Barun Pen";
