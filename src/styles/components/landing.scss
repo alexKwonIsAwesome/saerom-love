@@ -247,6 +247,28 @@
                         }
                     }
                 }
+
+                .subcontent.subcontent-fifth {
+                    padding-top: 10rem;
+                    padding-bottom: 10rem;
+
+                    .text-group {
+                        margin-top: 5rem;
+                        .subcontent-title {
+                            font-family: "Nanum Pen Script";
+                            font-weight: 400;
+                            color: #FF745C;
+                            font-size: 4rem;
+                            margin-bottom: 2rem;
+                        }
+                        .subcontent-description {
+                            font-family: "Nanum Barun Pen";
+                            font-weight: 400;
+                            color: #333;
+                            font-size: 2rem;
+                        }
+                    }
+                }
             }
         }
         .content.content-full.content-third {

@@ -186,6 +186,22 @@
             padding-left: 1rem; }
         .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .clear {
           clear: both; }
+    .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth {
+      padding-top: 10rem;
+      padding-bottom: 10rem; }
+      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group {
+        margin-top: 5rem; }
+        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group .subcontent-title {
+          font-family: "Nanum Pen Script";
+          font-weight: 400;
+          color: #FF745C;
+          font-size: 4rem;
+          margin-bottom: 2rem; }
+        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group .subcontent-description {
+          font-family: "Nanum Barun Pen";
+          font-weight: 400;
+          color: #333;
+          font-size: 2rem; }
 
 .landing-container .landing-content .content.content-full.content-third {
   background-color: rgba(255, 120, 97, 0.66);
