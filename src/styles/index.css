@@ -47,17 +47,23 @@ html {
 
 .landing-container .landing-content .content.content-first {
   text-align: center; }
-  .landing-container .landing-content .content.content-first .content-title {
-    margin-top: 10rem;
-    display: inline-block;
-    padding-bottom: 0.5rem;
-    color: #333;
-    font-family: "Nanum Barun Pen";
-    font-weight: 600;
-    font-size: 4rem;
-    border-bottom: 2px solid #333; }
-  .landing-container .landing-content .content.content-first .content-slider {
-    height: 80rem; }
+  .landing-container .landing-content .content.content-first .content-wrapper {
+    max-width: 1280px; }
+    .landing-container .landing-content .content.content-first .content-wrapper .content-title {
+      margin-top: 10rem;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+      color: #333;
+      font-family: "Nanum Barun Pen";
+      font-weight: 600;
+      font-size: 4rem;
+      border-bottom: 2px solid #333; }
+    .landing-container .landing-content .content.content-first .content-wrapper .content-slider {
+      height: 60rem;
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 5rem;
+      padding-bottom: 10rem; }
 
 .landing-container .landing-content .content.content-second {
   background-color: #fafafa; }
@@ -221,3 +227,161 @@ html {
       font-weight: 600;
       font-size: 7rem;
       color: #fff; }
+
+.slick-initialized.slick-slider .slick-list {
+  height: 60rem; }
+  .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-left {
+    width: 50%;
+    margin: 0 auto;
+    float: left; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-left .content-image {
+      width: 450px;
+      margin-left: auto; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-left .content-image img {
+        width: 450px; }
+  .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-right {
+    width: 50%;
+    margin: 0 auto;
+    float: left; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-right .text-group {
+      margin-top: 18rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-right .text-group .title {
+        font-family: "Nanum Barun Pen";
+        font-size: 3rem;
+        font-weight: 600;
+        color: #FF745C; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-right .text-group .separator {
+        height: 2px;
+        background-color: #FF745C;
+        width: 5rem;
+        display: inline-block;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-right .text-group .description {
+        font-family: "Nanum Barun Pen";
+        font-size: 2rem;
+        font-weight: 400;
+        color: #333; }
+        .slick-initialized.slick-slider .slick-list .slick-track .slick-content.first .content-right .text-group .description a {
+          text-decoration: unset; }
+  .slick-initialized.slick-slider .slick-list .slick-track .slick-content.second {
+    text-align: center; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.second .content-image {
+      width: 400px;
+      margin: 0 auto; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.second .content-image img {
+        width: 400px; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.second .text-group {
+      margin-top: 3rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.second .text-group .title {
+        font-family: "Nanum Barun Pen";
+        font-size: 3rem;
+        font-weight: 600;
+        color: #FF745C; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.second .text-group .separator {
+        height: 2px;
+        background-color: #FF745C;
+        width: 5rem;
+        display: inline-block;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.second .text-group .description {
+        font-family: "Nanum Barun Pen";
+        font-size: 2rem;
+        font-weight: 400;
+        color: #333; }
+  .slick-initialized.slick-slider .slick-list .slick-track .slick-content.third {
+    text-align: center; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.third .content-image {
+      width: 600px;
+      margin: 0 auto; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.third .content-image img {
+        width: 600px; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.third .text-group {
+      margin-top: 3rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.third .text-group .title {
+        font-family: "Nanum Barun Pen";
+        font-size: 3rem;
+        font-weight: 600;
+        color: #FF745C; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.third .text-group .separator {
+        height: 2px;
+        background-color: #FF745C;
+        width: 5rem;
+        display: inline-block;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.third .text-group .description {
+        font-family: "Nanum Barun Pen";
+        font-size: 2rem;
+        font-weight: 400;
+        color: #333; }
+  .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-left {
+    width: 50%;
+    float: left; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-left .content-image {
+      width: 360px;
+      margin-left: auto;
+      margin-top: 10rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-left .content-image img {
+        width: 360px; }
+  .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-right {
+    width: 50%;
+    float: left; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-right .text-group {
+      margin-top: 20rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-right .text-group .title {
+        font-family: "Nanum Barun Pen";
+        font-size: 3rem;
+        font-weight: 600;
+        color: #FF745C; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-right .text-group .separator {
+        height: 2px;
+        background-color: #FF745C;
+        width: 5rem;
+        display: inline-block;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fourth .content-right .text-group .description {
+        font-family: "Nanum Barun Pen";
+        font-size: 2rem;
+        font-weight: 400;
+        color: #333; }
+  .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-left {
+      margin-right: 10rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-left .content-image {
+        width: 400px;
+        margin-left: auto; }
+        .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-left .content-image img {
+          width: 400px; }
+    .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-right {
+      display: flex;
+      align-items: center; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-right .text-group .title {
+        font-family: "Nanum Barun Pen";
+        font-size: 3rem;
+        font-weight: 600;
+        color: #FF745C; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-right .text-group .separator {
+        height: 2px;
+        background-color: #FF745C;
+        width: 5rem;
+        display: inline-block;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem; }
+      .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-right .text-group .description {
+        font-family: "Nanum Barun Pen";
+        font-size: 2rem;
+        font-weight: 400;
+        color: #333; }
+
+.slick-initialized.slick-slider .slick-prev:before {
+  color: #000; }
+
+.slick-initialized.slick-slider .slick-next:before {
+  color: #000; }

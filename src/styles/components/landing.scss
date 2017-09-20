@@ -31,18 +31,25 @@
 
         .content.content-first {
             text-align: center;
-            .content-title {
-                margin-top: 10rem;
-                display: inline-block;
-                padding-bottom: 0.5rem;
-                color: #333;
-                font-family: "Nanum Barun Pen";
-                font-weight: 600;
-                font-size: 4rem;
-                border-bottom: 2px solid #333;
-            }
-            .content-slider {
-                height: 80rem;
+            .content-wrapper {
+                max-width: 1280px;
+                .content-title {
+                    margin-top: 10rem;
+                    display: inline-block;
+                    padding-bottom: 0.5rem;
+                    color: #333;
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 600;
+                    font-size: 4rem;
+                    border-bottom: 2px solid #333;
+                }
+                .content-slider {
+                    height: 60rem;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding-top: 5rem;
+                    padding-bottom: 10rem;
+                }
             }
         }
         .content.content-second {

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import StoryContentSlider from "../StoryContentSlider";
 
 export default class Landing extends Component {
     render() {
@@ -16,9 +17,12 @@ export default class Landing extends Component {
                     </div>
 
                     <div className="content content-first">
-                        <div className="content-title">이야기의 시작</div>
-                        <div className="content-slider">
-                            {/* StoryContentSlider */}
+                        <div className="content-wrapper">
+                            <div className="content-title">이야기의 시작</div>
+                            <div className="content-slider">
+                                {/* StoryContentSlider */}
+                                <StoryContentSlider />
+                            </div>
                         </div>
                     </div>
 
