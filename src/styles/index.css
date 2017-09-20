@@ -213,15 +213,16 @@ html {
 .landing-container .landing-content .content.content-full.content-third {
   background-color: rgba(255, 120, 97, 0.66);
   text-align: center;
-  padding-top: 10rem;
-  padding-bottom: 10rem; }
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
   .landing-container .landing-content .content.content-full.content-third .text-group {
     margin-bottom: 5rem; }
     .landing-container .landing-content .content.content-full.content-third .text-group .content-full-subtext {
       font-family: "Nanum Barun Pen";
       font-weight: 400;
       font-size: 3.5rem;
-      color: #fff; }
+      color: #fff;
+      margin-bottom: 1rem; }
     .landing-container .landing-content .content.content-full.content-third .text-group .content-full-maintext {
       font-family: "Nanum Barun Pen";
       font-weight: 600;
