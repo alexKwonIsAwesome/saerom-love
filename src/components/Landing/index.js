@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import StoryContentSlider from "../StoryContentSlider";
+import ImageGallerySlider from "../ImageGallerySlider";
 
 export default class Landing extends Component {
     render() {
@@ -151,7 +152,15 @@ export default class Landing extends Component {
                     </div>
 
                     <div className="content content-fourth">
-                        {/* ImageGallerySlider */}
+                        <div className="content-wrapper">
+                            <div className="text-group">
+                                <div className="section-title">GALLERY</div>
+                                <div className="preposition">of</div>
+                                <div className="hash-style-name">#saerom {"&"} #hyeokwoo</div>                                
+                            </div>
+                            {/* ImageGallerySlider */}
+                            <ImageGallerySlider />
+                        </div>
                     </div>
 
                     <div className="content content-fifth">

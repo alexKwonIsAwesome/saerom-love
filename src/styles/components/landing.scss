@@ -277,7 +277,30 @@
 
         }
         .content.content-fourth {
-
+            .content-wrapper {
+                padding-top: 10rem;
+                .text-group {
+                    text-align: center;
+                    .section-title {
+                        font-family: "Nanum Barun Pen";
+                        font-size: 8rem;
+                        font-weight: 600;
+                        margin-bottom: 2rem;
+                    }
+                    .preposition {
+                        font-family: "Nanum Barun Pen";
+                        font-size: 4rem;
+                        font-weight: 600;
+                        margin-bottom: 2rem;
+                        
+                    }
+                    .hash-style-name {
+                        font-family: "Nanum Barun Pen";
+                        font-size: 4rem;
+                        font-weight: 400;
+                    }
+                }
+            }
         }
         .content-content-fifth {
 
