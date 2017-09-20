@@ -225,7 +225,8 @@
 .landing-container .landing-content .content.content-fourth .content-wrapper {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  max-width: 1280px; }
+  max-width: 1280px;
+  margin: 0 auto; }
   .landing-container .landing-content .content.content-fourth .content-wrapper .text-group {
     text-align: center; }
     .landing-container .landing-content .content.content-fourth .content-wrapper .text-group .section-title {
