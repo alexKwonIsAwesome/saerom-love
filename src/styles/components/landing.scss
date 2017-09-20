@@ -1,0 +1,352 @@
+.landing-container {
+    .landing-content {
+        .content.cover {
+            position: relative;
+            height: 100vh;
+            background: no-repeat center 40%;
+            background-image: url("../assets/images/alexsaerom-cover.png");
+            background-size: cover;
+            text-align: center;
+            .cover-dim {
+                height: 100vh;
+                background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2));
+                .title-group {
+                    padding-top: 15rem;
+                    .cover-subtitle {
+                        color: #FF745C;
+                        font-family: "Nanum Barun Pen";
+                        font-size: 4rem;
+                        font-weight: 600;
+                        margin-bottom: 1rem;
+                    }
+                    .cover-maintitle {
+                        color: #fff;
+                        font-family: "Nanum Barun Pen";
+                        font-size: 8rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .content.content-first {
+            text-align: center;
+            .content-wrapper {
+                max-width: 1280px;
+                .content-title {
+                    margin-top: 10rem;
+                    display: inline-block;
+                    padding-bottom: 0.5rem;
+                    color: #333;
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 600;
+                    font-size: 4rem;
+                    border-bottom: 2px solid #333;
+                }
+                .content-slider {
+                    height: 60rem;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding-top: 5rem;
+                    padding-bottom: 10rem;
+                }
+            }
+        }
+        .content.content-second {
+            background-color: #fafafa;
+            .content-wrapper {
+                max-width: 840px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                .content-title {
+                    margin-top: 10rem;
+                    display: inline-block;
+                    padding-bottom: 0.5rem;
+                    color: #333;
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 600;
+                    font-size: 4rem;
+                    border-bottom: 2px solid #333;
+                }
+    
+                .subcontent-separator {
+                    width: 30rem;
+                    margin: 0 auto;
+                    background-color: rgba(170,170,170,0.5);
+                    height: 1px;
+                    // border-bottom: 1px solid #aaa;
+                }
+    
+                .subcontent.subcontent-first {
+                    padding-top: 10rem;
+                    padding-bottom: 10rem;
+                    .subcontent-video {
+                        margin-bottom: 5rem;
+                    }
+                    .subcontent-title { // 도수코 급
+                        font-family: "Nanum Pen Script";
+                        font-weight: 400;
+                        color: #FF745C;
+                        font-size: 4rem;
+                        margin-bottom: 2rem;
+                    }
+                    .subcontent-description {
+                        font-family: "Nanum Barun Pen";
+                        font-weight: 400;
+                        color: #333;
+                        font-size: 2rem;
+                    }
+                }
+    
+                .subcontent.subcontent-second {
+                    padding-top: 10rem;
+                    padding-bottom: 10rem;
+                    .subcontent-left {
+                        width: 50%;
+                        display: inline-block;
+                        float: left;
+                        .text-group {
+                            width: 50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 25rem;
+                            .subcontent-title { // 볼통통
+                                font-family: "Nanum Pen Script";
+                                font-weight: 400;
+                                color: #FF745C;
+                                font-size: 4rem;
+                                margin-bottom: 2rem;
+                                text-align: left;
+                            }
+                            .subcontent-description {
+                                font-family: "Nanum Barun Pen";
+                                font-weight: 400;
+                                color: #333;
+                                font-size: 2rem;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .subcontent-right {
+                        width: 50%;
+                        display: inline-block;
+                        .subcontent-image {
+                            text-align: left;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+    
+                .subcontent.subcontent-third {
+                    padding-top: 10rem;
+                    padding-bottom: 10rem;
+                    .subcontent-left {
+                        display: inline-block;
+                        width: 50%;
+                        .subcontent-image {
+                            padding-right: 1rem;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .subcontent-right {
+                        display: inline-block;
+                        width: 50%;
+                        vertical-align: top;
+                        .subcontent-image {
+                            padding-left: 1rem;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .text-group {
+                            margin-top: 4rem;
+                            text-align: right;
+                            .subcontent-title { // 스쿠터
+                                font-family: "Nanum Pen Script";
+                                font-weight: 400;
+                                color: #FF745C;
+                                font-size: 4rem;
+                                margin-bottom: 2rem;
+                            }
+                            .subcontent-description {
+                                font-family: "Nanum Barun Pen";
+                                font-weight: 400;
+                                color: #333;
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+
+                .subcontent.subcontent-fourth {
+                    padding-top: 10rem;
+                    padding-bottom: 10rem;
+                    .subcontent-grid {
+                        .subcontent-grid-row {
+                            padding-bottom: 1rem;
+                            .subcontent-grid-column {
+                                width: 50%;
+                                float: left;
+                                .text-group {
+                                    padding-top: 14rem;
+                                    padding-left: 1rem;
+                                    text-align: center;
+                                    .subcontent-title {
+                                        font-family: "Nanum Pen Script";
+                                        font-weight: 400;
+                                        color: #FF745C;
+                                        font-size: 4rem;
+                                        margin-bottom: 2rem;
+                                    }
+                                    .subcontent-description {
+                                        font-family: "Nanum Barun Pen";
+                                        font-weight: 400;
+                                        color: #333;
+                                        font-size: 2rem;
+                                    }
+                                }
+                            }
+                            .subcontent-grid-column {
+                                width: 50%;
+                                float: left;
+                                .subcontent-image {
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .clear {
+                                clear: both;
+                            }
+                        }
+                        .subcontent-grid-row {
+                            padding-top: 1rem;
+                            .subcontent-grid-column {
+                                width: 50%;
+                                float: left;
+                                .subcontent-image {
+                                    .img {
+                                        width: 100%;
+                                    }
+                                }
+                                .subcontent-image:first-child{
+                                    padding-right: 1rem;
+                                }
+                                .subcontent-image:last-child {
+                                    padding-left: 1rem;
+                                }
+                            }
+                            .clear {
+                                clear: both;
+                            }
+                        }
+                    }
+                }
+
+                .subcontent.subcontent-fifth {
+                    padding-top: 10rem;
+                    padding-bottom: 10rem;
+
+                    .text-group {
+                        margin-top: 5rem;
+                        .subcontent-title {
+                            font-family: "Nanum Pen Script";
+                            font-weight: 400;
+                            color: #FF745C;
+                            font-size: 4rem;
+                            margin-bottom: 2rem;
+                        }
+                        .subcontent-description {
+                            font-family: "Nanum Barun Pen";
+                            font-weight: 400;
+                            color: #333;
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .content.content-full.content-third {
+            background-color: rgba(255, 120, 97, 0.66);
+            text-align: center;
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+            .text-group {
+                margin-bottom: 5rem;
+                .content-full-subtext {
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 400;
+                    font-size: 3.5rem;
+                    color: #fff;
+                    margin-bottom: 1rem;
+                }
+                .content-full-maintext {
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 600;
+                    font-size: 7rem;
+                    color: #fff;
+                }
+            }
+
+            .content-video {
+
+            }
+
+        }
+        .content.content-fourth {
+            .content-wrapper {
+                padding-top: 10rem;
+                padding-bottom: 10rem;
+                max-width: 1280px;
+                margin: 0 auto;
+                .text-group {
+                    text-align: center;
+                    .section-title {
+                        font-family: "Nanum Barun Pen";
+                        font-size: 8rem;
+                        font-weight: 600;
+                        margin-bottom: 2rem;
+                    }
+                    .preposition {
+                        font-family: "Nanum Barun Pen";
+                        font-size: 4rem;
+                        font-weight: 600;
+                        margin-bottom: 2rem;
+                        
+                    }
+                    .hash-style-name {
+                        font-family: "Nanum Barun Pen";
+                        font-size: 4rem;
+                        font-weight: 400;
+                    }
+                }
+                .content-slider {
+                    height: 50rem;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding-top: 5rem;
+                    padding-bottom: 10rem;
+                }
+            }
+        }
+        .content-content-fifth {
+
+        }
+        .footer {
+            height: 2rem;
+            color: #bbb;
+            background-color: #f2f2f2;
+            text-align: center;
+            .footer-content {
+                line-height: 2rem;
+                vertical-align: middle;
+                font-family: "Helvetica";
+            }
+        }
+    }
+}
