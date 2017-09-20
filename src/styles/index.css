@@ -88,7 +88,7 @@ html {
       height: 1px; }
     .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first {
       padding-top: 10rem;
-      padding-bottom: 20rem; }
+      padding-bottom: 10rem; }
       .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-video {
         margin-bottom: 5rem; }
       .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-title {
@@ -103,8 +103,8 @@ html {
         color: #333;
         font-size: 2rem; }
     .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second {
-      padding-top: 20rem;
-      padding-bottom: 20rem; }
+      padding-top: 10rem;
+      padding-bottom: 10rem; }
       .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left {
         width: 50%;
         display: inline-block;
@@ -135,8 +135,8 @@ html {
           .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-right .subcontent-image img {
             width: 100%; }
     .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third {
-      padding-top: 20rem;
-      padding-bottom: 20rem; }
+      padding-top: 10rem;
+      padding-bottom: 10rem; }
       .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-left {
         display: inline-block;
         width: 50%; }
@@ -167,8 +167,8 @@ html {
             color: #333;
             font-size: 2rem; }
     .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth {
-      padding-top: 20rem;
-      padding-bottom: 20rem; }
+      padding-top: 10rem;
+      padding-bottom: 10rem; }
       .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row {
         padding-bottom: 1rem; }
         .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column {
