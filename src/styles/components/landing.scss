@@ -243,10 +243,27 @@
             }
         }
         .content.content-full.content-third {
-            .content-full-subtext {
-                
+            background-color: rgba(255, 120, 97, 0.66);
+            text-align: center;
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+            .text-group {
+                margin-bottom: 5rem;
+                .content-full-subtext {
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 400;
+                    font-size: 3.5rem;
+                    color: #fff;
+                }
+                .content-full-maintext {
+                    font-family: "Nanum Barun Pen";
+                    font-weight: 600;
+                    font-size: 7rem;
+                    color: #fff;
+                }
             }
-            .content-full-maintext {
+
+            .content-video {
 
             }
 

@@ -180,3 +180,21 @@
             padding-left: 1rem; }
         .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .clear {
           clear: both; }
+
+.landing-container .landing-content .content.content-full.content-third {
+  background-color: rgba(255, 120, 97, 0.66);
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+  .landing-container .landing-content .content.content-full.content-third .text-group {
+    margin-bottom: 5rem; }
+    .landing-container .landing-content .content.content-full.content-third .text-group .content-full-subtext {
+      font-family: "Nanum Barun Pen";
+      font-weight: 400;
+      font-size: 3.5rem;
+      color: #fff; }
+    .landing-container .landing-content .content.content-full.content-third .text-group .content-full-maintext {
+      font-family: "Nanum Barun Pen";
+      font-weight: 600;
+      font-size: 7rem;
+      color: #fff; }

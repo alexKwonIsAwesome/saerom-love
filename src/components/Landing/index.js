@@ -136,9 +136,14 @@ export default class Landing extends Component {
                     </div>
 
                     <div className="content content-full content-third">
-                        <div className="content-full-subtext">새롬이와 함께한</div>
-                        <div className="content-full-maintext">행복의 순간들</div>
+                        <div className="text-group">
+                            <div className="content-full-subtext">새롬이와 함께한</div>
+                            <div className="content-full-maintext">행복의 순간들</div>
+                        </div>
                         {/* Video */}
+                        <div className="content-video">
+                            <iframe width="700" height="394" src="https://www.youtube.com/embed/veMFCFyOwFI" frameBorder="0" allowFullScreen></iframe>
+                        </div>
                     </div>
 
                     <div className="content content-fourth">
