@@ -33,7 +33,7 @@ export default class Landing extends Component {
                             <div className="subcontent subcontent-first">
                                 <div className="subcontent-video">
                                     {/* Video */}
-                                    <iframe width="700" height="394" src="https://www.youtube.com/embed/veMFCFyOwFI" frameBorder="0" allowFullScreen></iframe>                  
+                                    <iframe width="704" height="396" src="https://www.youtube.com/embed/UEYQSfzdd9I?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>       
                                 </div>
                                 <div className="subcontent-title">도수코급 포즈녀</div>
                                 <div className="subcontent-description">다리가 길어보이는 사진을 건지길 좋아하는 새로미. <br /> 카메라 앞에선 다양한 모델포즈로 최고의 컷을 뽑아내죠.</div>
@@ -159,7 +159,7 @@ export default class Landing extends Component {
                         </div>
                         {/* Video */}
                         <div className="content-video">
-                            <iframe width="700" height="394" src="https://www.youtube.com/embed/veMFCFyOwFI" frameBorder="0" allowFullScreen></iframe>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/fjfloV_y3PQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
 
