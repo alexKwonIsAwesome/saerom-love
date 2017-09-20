@@ -13,7 +13,7 @@ export default class StoryContentSlider extends Component {
         };
 
         return (
-            <div>
+            <div className="story-content-slider">
                 <Slider {...sliderSettings}>
                     <div className="slick-content first">
                         <div className="content-left">
