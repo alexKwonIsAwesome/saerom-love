@@ -4,6 +4,9 @@ html {
   font-size: 10px;
   min-width: 1280px; }
 
+iframe {
+  border: 0px solid; }
+
 @font-face {
   font-family: "Nanum Barun Pen";
   src: url("../assets/fonts/NanumBarunpenR.ttf");
