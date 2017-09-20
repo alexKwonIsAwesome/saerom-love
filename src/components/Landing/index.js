@@ -158,8 +158,10 @@ export default class Landing extends Component {
                                 <div className="preposition">of</div>
                                 <div className="hash-style-name">#saerom {"&"} #hyeokwoo</div>                                
                             </div>
-                            {/* ImageGallerySlider */}
-                            <ImageGallerySlider />
+                            <div className="content-slider">
+                                {/* ImageGallerySlider */}
+                                <ImageGallerySlider />
+                            </div>
                         </div>
                     </div>
 
