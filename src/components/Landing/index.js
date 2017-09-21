@@ -85,36 +85,13 @@ export default class Landing extends Component {
 
                             <div className="subcontent-separator" />
 
-                            {/* <div className="subcontent subcontent-fourth">
-                                <div className="subcontent-left">
-                                    <div className="text-group">
-                                        <div className="subcontent-title">먹방 여신</div>
-                                        <div className="subcontent-description">따로 말할 필요 있나? <br /> 넌 먹을때가 제일 에뻐!</div>
-                                    </div>
-                                    <div className="subcontent-image">
-                                        
-                                        <img src={require("../../assets/images/drink.jpg")} />
-                                    </div>
-                                </div>
-                                <div className="subcontent-right">
-                                    <div className="subcontent-image">
-                                        
-                                        <img src={require("../../assets/images/fork.jpg")} />                                        
-                                    </div>
-                                    <div className="subcontent-image">
-                                        
-                                        <img src={require("../../assets/images/wine.jpg")} />
-                                    </div>
-                                </div>
-                            </div> */}
-
                             <div className="subcontent subcontent-fourth">
                                 <div className="subcontent-grid">
                                     <div className="subcontent-grid-row">
                                         <div className="subcontent-grid-column">
                                             <div className="text-group">
                                                 <div className="subcontent-title">먹방 여신</div>
-                                                <div className="subcontent-description">따로 말할 필요 있나? <br /> 넌 먹을때가 제일 예뻐!</div>
+                                                <div className="subcontent-description">따로 말할 필요 있니? <br /> 넌 먹을때가 제일 예뻐!</div>
                                             </div>
                                         </div>
                                         <div className="subcontent-grid-column">
