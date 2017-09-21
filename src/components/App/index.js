@@ -9,8 +9,8 @@ export default class App extends Component {
     render() {
         return (
             <div className="app-container">
-                <Route exact path="/" render={() => <Redirect to="/100-days-story" />} />
-                <Route path="/100-days-story" component={Landing} />
+                <Route exact path="/" render={() => <Redirect to="/story-of-100days" />} />
+                <Route path="/story-of-100days" component={Landing} />
             </div>
         )
     }
