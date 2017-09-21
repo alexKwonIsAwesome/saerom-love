@@ -18,7 +18,7 @@ export default class StoryContentSlider extends Component {
                     <div className="slick-content first">
                         <div className="content-left">
                             <div className="content-image">
-                                <img src={require("../../assets/images/kakao-dialog.png")} />
+                                <img src={require("../../assets/images/kakao-dialog.jpg")} />
                             </div>
                         </div>
                         <div className="content-right">
@@ -35,7 +35,7 @@ export default class StoryContentSlider extends Component {
                     </div>
                     <div className="slick-content second">
                         <div className="content-image">
-                            <img src={require("../../assets/images/first-meet.png")} />
+                            <img src={require("../../assets/images/first-meet.jpg")} />
                         </div>
                         <div className="text-group">
                             <div className="title">첫만남.</div>
@@ -49,7 +49,7 @@ export default class StoryContentSlider extends Component {
                     </div>
                     <div className="slick-content third">
                         <div className="content-image">
-                            <img src={require("../../assets/images/dumulmeori.png")} />
+                            <img src={require("../../assets/images/dumulmeori.jpg")} />
                         </div>
                         <div className="text-group">
                             <div className="title">첫 데이트!</div>
@@ -83,7 +83,7 @@ export default class StoryContentSlider extends Component {
                     <div className="slick-content fifth">
                         <div className="content-left">
                             <div className="content-image">
-                                <img src={require("../../assets/images/love-start.png")} />
+                                <img src={require("../../assets/images/love-start.jpg")} />
                             </div>
                         </div>
                         <div className="content-right">

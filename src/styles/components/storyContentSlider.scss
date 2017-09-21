@@ -162,6 +162,9 @@
     
                 .slick-content.fifth {
                     position: relative;
+                    display: -ms-flexbox;
+                    -ms-flex-align: center;
+                    -ms-flex-pack: center;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -176,6 +179,8 @@
                         }
                     }
                     .content-right {
+                        display: -ms-flexbox;
+                        -ms-flex-align: center;
                         display: flex;
                         align-items: center;
                         .text-group {

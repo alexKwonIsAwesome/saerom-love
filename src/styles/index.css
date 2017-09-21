@@ -24,35 +24,36 @@ iframe {
   src: url(//fonts.gstatic.com/ea/nanumpenscript/v4/NanumPenScript-Regular.eot);
   src: url(//fonts.gstatic.com/ea/nanumpenscript/v4/NanumPenScript-Regular.eot?#iefix) format("embedded-opentype"), url(//fonts.gstatic.com/ea/nanumpenscript/v4/NanumPenScript-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/nanumpenscript/v4/NanumPenScript-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/nanumpenscript/v4/NanumPenScript-Regular.ttf) format("truetype"); }
 
-.landing-container .landing-content .content.cover {
+.landing-container.desktop .landing-content .content.cover {
   position: relative;
   height: 100vh;
   background: no-repeat center 40%;
-  background-image: url("../assets/images/alexsaerom-cover.png");
+  background-image: url("../assets/images/alexsaerom-cover.jpg");
   background-size: cover;
   text-align: center; }
-  .landing-container .landing-content .content.cover .cover-dim {
+  .landing-container.desktop .landing-content .content.cover .cover-dim {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)); }
-    .landing-container .landing-content .content.cover .cover-dim .title-group {
+    .landing-container.desktop .landing-content .content.cover .cover-dim .title-group {
       padding-top: 15rem; }
-      .landing-container .landing-content .content.cover .cover-dim .title-group .cover-subtitle {
+      .landing-container.desktop .landing-content .content.cover .cover-dim .title-group .cover-subtitle {
         color: #FF745C;
         font-family: "Nanum Barun Pen";
         font-size: 4rem;
         font-weight: 600;
         margin-bottom: 1rem; }
-      .landing-container .landing-content .content.cover .cover-dim .title-group .cover-maintitle {
+      .landing-container.desktop .landing-content .content.cover .cover-dim .title-group .cover-maintitle {
         color: #fff;
         font-family: "Nanum Barun Pen";
         font-size: 8rem;
         font-weight: 600; }
 
-.landing-container .landing-content .content.content-first {
+.landing-container.desktop .landing-content .content.content-first {
   text-align: center; }
-  .landing-container .landing-content .content.content-first .content-wrapper {
-    max-width: 1280px; }
-    .landing-container .landing-content .content.content-first .content-wrapper .content-title {
+  .landing-container.desktop .landing-content .content.content-first .content-wrapper {
+    max-width: 1280px;
+    margin: 0 auto; }
+    .landing-container.desktop .landing-content .content.content-first .content-wrapper .content-title {
       margin-top: 10rem;
       display: inline-block;
       padding-bottom: 0.5rem;
@@ -61,21 +62,21 @@ iframe {
       font-weight: 600;
       font-size: 4rem;
       border-bottom: 2px solid #333; }
-    .landing-container .landing-content .content.content-first .content-wrapper .content-slider {
+    .landing-container.desktop .landing-content .content.content-first .content-wrapper .content-slider {
       height: 60rem;
       width: 80%;
       margin: 0 auto;
       padding-top: 5rem;
       padding-bottom: 10rem; }
 
-.landing-container .landing-content .content.content-second {
+.landing-container.desktop .landing-content .content.content-second {
   background-color: #fafafa; }
-  .landing-container .landing-content .content.content-second .content-wrapper {
+  .landing-container.desktop .landing-content .content.content-second .content-wrapper {
     max-width: 840px;
     margin-left: auto;
     margin-right: auto;
     text-align: center; }
-    .landing-container .landing-content .content.content-second .content-wrapper .content-title {
+    .landing-container.desktop .landing-content .content.content-second .content-wrapper .content-title {
       margin-top: 10rem;
       display: inline-block;
       padding-bottom: 0.5rem;
@@ -84,204 +85,204 @@ iframe {
       font-weight: 600;
       font-size: 4rem;
       border-bottom: 2px solid #333; }
-    .landing-container .landing-content .content.content-second .content-wrapper .subcontent-separator {
+    .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent-separator {
       width: 30rem;
       margin: 0 auto;
       background-color: rgba(170, 170, 170, 0.5);
       height: 1px; }
-    .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first {
+    .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first {
       padding-top: 10rem;
       padding-bottom: 10rem; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-video {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-video {
         margin-bottom: 5rem; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-title {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-title {
         font-family: "Nanum Pen Script";
         font-weight: 400;
         color: #FF745C;
         font-size: 4rem;
         margin-bottom: 2rem; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-description {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-first .subcontent-description {
         font-family: "Nanum Barun Pen";
         font-weight: 400;
         color: #333;
         font-size: 2rem; }
-    .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second {
+    .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second {
       padding-top: 10rem;
       padding-bottom: 10rem; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left {
         width: 50%;
         display: inline-block;
         float: left; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left .text-group {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left .text-group {
           width: 50%;
           margin-left: auto;
           margin-right: auto;
           margin-top: 25rem; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left .text-group .subcontent-title {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left .text-group .subcontent-title {
             font-family: "Nanum Pen Script";
             font-weight: 400;
             color: #FF745C;
             font-size: 4rem;
             margin-bottom: 2rem;
             text-align: left; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left .text-group .subcontent-description {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-left .text-group .subcontent-description {
             font-family: "Nanum Barun Pen";
             font-weight: 400;
             color: #333;
             font-size: 2rem;
             text-align: left; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-right {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-right {
         width: 50%;
         display: inline-block; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-right .subcontent-image {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-right .subcontent-image {
           text-align: left; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-right .subcontent-image img {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-second .subcontent-right .subcontent-image img {
             width: 100%; }
-    .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third {
+    .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third {
       padding-top: 10rem;
       padding-bottom: 10rem; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-left {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-left {
         display: inline-block;
         width: 50%; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-left .subcontent-image {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-left .subcontent-image {
           padding-right: 1rem; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-left .subcontent-image img {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-left .subcontent-image img {
             width: 100%; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right {
         display: inline-block;
         width: 50%;
         vertical-align: top; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .subcontent-image {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .subcontent-image {
           padding-left: 1rem; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .subcontent-image img {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .subcontent-image img {
             width: 100%; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .text-group {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .text-group {
           margin-top: 4rem;
           text-align: right; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .text-group .subcontent-title {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .text-group .subcontent-title {
             font-family: "Nanum Pen Script";
             font-weight: 400;
             color: #FF745C;
             font-size: 4rem;
             margin-bottom: 2rem; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .text-group .subcontent-description {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-third .subcontent-right .text-group .subcontent-description {
             font-family: "Nanum Barun Pen";
             font-weight: 400;
             color: #333;
             font-size: 2rem; }
-    .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth {
+    .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth {
       padding-top: 10rem;
       padding-bottom: 10rem; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row {
         padding-bottom: 1rem; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column {
           width: 50%;
           float: left; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .text-group {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .text-group {
             padding-top: 14rem;
             padding-left: 1rem;
             text-align: center; }
-            .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .text-group .subcontent-title {
+            .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .text-group .subcontent-title {
               font-family: "Nanum Pen Script";
               font-weight: 400;
               color: #FF745C;
               font-size: 4rem;
               margin-bottom: 2rem; }
-            .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .text-group .subcontent-description {
+            .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .text-group .subcontent-description {
               font-family: "Nanum Barun Pen";
               font-weight: 400;
               color: #333;
               font-size: 2rem; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column {
           width: 50%;
           float: left; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image img {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image img {
             width: 100%; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .clear {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .clear {
           clear: both; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row {
         padding-top: 1rem; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column {
           width: 50%;
           float: left; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image .img {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image .img {
             width: 100%; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image:first-child {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image:first-child {
             padding-right: 1rem; }
-          .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image:last-child {
+          .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .subcontent-grid-column .subcontent-image:last-child {
             padding-left: 1rem; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .clear {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fourth .subcontent-grid .subcontent-grid-row .clear {
           clear: both; }
-    .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth {
+    .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth {
       padding-top: 10rem;
       padding-bottom: 10rem; }
-      .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group {
+      .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group {
         margin-top: 5rem; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group .subcontent-title {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group .subcontent-title {
           font-family: "Nanum Pen Script";
           font-weight: 400;
           color: #FF745C;
           font-size: 4rem;
           margin-bottom: 2rem; }
-        .landing-container .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group .subcontent-description {
+        .landing-container.desktop .landing-content .content.content-second .content-wrapper .subcontent.subcontent-fifth .text-group .subcontent-description {
           font-family: "Nanum Barun Pen";
           font-weight: 400;
           color: #333;
           font-size: 2rem; }
 
-.landing-container .landing-content .content.content-full.content-third {
+.landing-container.desktop .landing-content .content.content-full.content-third {
   background-color: rgba(255, 120, 97, 0.66);
   text-align: center;
   padding-top: 8rem;
   padding-bottom: 8rem; }
-  .landing-container .landing-content .content.content-full.content-third .text-group {
+  .landing-container.desktop .landing-content .content.content-full.content-third .text-group {
     margin-bottom: 5rem; }
-    .landing-container .landing-content .content.content-full.content-third .text-group .content-full-subtext {
+    .landing-container.desktop .landing-content .content.content-full.content-third .text-group .content-full-subtext {
       font-family: "Nanum Barun Pen";
       font-weight: 400;
       font-size: 3.5rem;
       color: #fff;
       margin-bottom: 1rem; }
-    .landing-container .landing-content .content.content-full.content-third .text-group .content-full-maintext {
+    .landing-container.desktop .landing-content .content.content-full.content-third .text-group .content-full-maintext {
       font-family: "Nanum Barun Pen";
       font-weight: 600;
       font-size: 7rem;
       color: #fff; }
 
-.landing-container .landing-content .content.content-fourth .content-wrapper {
+.landing-container.desktop .landing-content .content.content-fourth .content-wrapper {
   padding-top: 10rem;
   padding-bottom: 10rem;
   max-width: 1280px;
   margin: 0 auto; }
-  .landing-container .landing-content .content.content-fourth .content-wrapper .text-group {
+  .landing-container.desktop .landing-content .content.content-fourth .content-wrapper .text-group {
     text-align: center; }
-    .landing-container .landing-content .content.content-fourth .content-wrapper .text-group .section-title {
+    .landing-container.desktop .landing-content .content.content-fourth .content-wrapper .text-group .section-title {
       font-family: "Nanum Barun Pen";
       font-size: 8rem;
       font-weight: 600;
       margin-bottom: 2rem; }
-    .landing-container .landing-content .content.content-fourth .content-wrapper .text-group .preposition {
+    .landing-container.desktop .landing-content .content.content-fourth .content-wrapper .text-group .preposition {
       font-family: "Nanum Barun Pen";
       font-size: 4rem;
       font-weight: 600;
       margin-bottom: 2rem; }
-    .landing-container .landing-content .content.content-fourth .content-wrapper .text-group .hash-style-name {
+    .landing-container.desktop .landing-content .content.content-fourth .content-wrapper .text-group .hash-style-name {
       font-family: "Nanum Barun Pen";
       font-size: 4rem;
       font-weight: 400; }
-  .landing-container .landing-content .content.content-fourth .content-wrapper .content-slider {
+  .landing-container.desktop .landing-content .content.content-fourth .content-wrapper .content-slider {
     height: 50rem;
     width: 80%;
     margin: 0 auto;
     padding-top: 5rem;
     padding-bottom: 10rem; }
 
-.landing-container .landing-content .footer {
+.landing-container.desktop .landing-content .footer {
   height: 2rem;
   color: #bbb;
   background-color: #f2f2f2;
   text-align: center; }
-  .landing-container .landing-content .footer .footer-content {
+  .landing-container.desktop .landing-content .footer .footer-content {
     line-height: 2rem;
     vertical-align: middle;
     font-family: "Helvetica"; }
@@ -407,6 +408,9 @@ iframe {
         color: #333; }
   .story-content-slider .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth {
     position: relative;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -418,6 +422,8 @@ iframe {
         .story-content-slider .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-left .content-image img {
           width: 400px; }
     .story-content-slider .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-right {
+      display: -ms-flexbox;
+      -ms-flex-align: center;
       display: flex;
       align-items: center; }
       .story-content-slider .slick-initialized.slick-slider .slick-list .slick-track .slick-content.fifth .content-right .text-group .title {
