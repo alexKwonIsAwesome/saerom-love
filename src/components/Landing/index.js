@@ -3,9 +3,15 @@ import StoryContentSlider from "../StoryContentSlider";
 import ImageGallerySlider from "../ImageGallerySlider";
 
 export default class Landing extends Component {
+    componentDidMount() {
+        console.log(window.innerWidth);
+        window.addEventListener("resize", () => {
+            console.log("resized!")
+        });
+    }
     render() {
         return (
-            <div className="landing-container">
+            <div className="landing-container desktop">
                 <div className="landing-content">
 
                     <div className="content cover">
@@ -33,7 +39,7 @@ export default class Landing extends Component {
                             <div className="subcontent subcontent-first">
                                 <div className="subcontent-video">
                                     {/* Video */}
-                                    <iframe width="704" height="396" src="https://www.youtube.com/embed/UEYQSfzdd9I?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>       
+                                    <iframe width="704" height="396" src="https://www.youtube.com/embed/UEYQSfzdd9I?rel=0&amp;controls=0&amp;showinfo=0" frameBorder="0" allowFullScreen></iframe>       
                                 </div>
                                 <div className="subcontent-title">도수코급 포즈녀</div>
                                 <div className="subcontent-description">다리가 길어보이는 사진을 건지길 좋아하는 새로미. <br /> 카메라 앞에선 다양한 모델포즈로 최고의 컷을 뽑아내죠.</div>
@@ -68,7 +74,7 @@ export default class Landing extends Component {
                                 <div className="subcontent-right">
                                     {/* Image Square */}
                                     <div className="subcontent-image">
-                                        <img src={require("../../assets/images/helmet.png")} /> 
+                                        <img src={require("../../assets/images/helmet.jpg")} /> 
                                     </div>                                                       
                                     <div className="text-group">
                                         <div className="subcontent-title">스쿠터가 잘 어울리는 그녀</div>
@@ -87,17 +93,17 @@ export default class Landing extends Component {
                                     </div>
                                     <div className="subcontent-image">
                                         
-                                        <img src={require("../../assets/images/drink.png")} />
+                                        <img src={require("../../assets/images/drink.jpg")} />
                                     </div>
                                 </div>
                                 <div className="subcontent-right">
                                     <div className="subcontent-image">
                                         
-                                        <img src={require("../../assets/images/fork.png")} />                                        
+                                        <img src={require("../../assets/images/fork.jpg")} />                                        
                                     </div>
                                     <div className="subcontent-image">
                                         
-                                        <img src={require("../../assets/images/wine.png")} />
+                                        <img src={require("../../assets/images/wine.jpg")} />
                                     </div>
                                 </div>
                             </div> */}
@@ -114,7 +120,7 @@ export default class Landing extends Component {
                                         <div className="subcontent-grid-column">
                                             <div className="subcontent-image">
                                                 {/* Image Square */}
-                                                <img src={require("../../assets/images/drink.png")} />
+                                                <img src={require("../../assets/images/drink.jpg")} />
                                             </div>
                                         </div>
                                         <div className="clear" />
@@ -123,13 +129,13 @@ export default class Landing extends Component {
                                         <div className="subcontent-grid-column">
                                             <div className="subcontent-image">
                                                 {/* Image Square */}
-                                                <img src={require("../../assets/images/fork.png")} />                                        
+                                                <img src={require("../../assets/images/fork.jpg")} />                                        
                                             </div>
                                         </div>
                                         <div className="subcontent-grid-column">
                                             <div className="subcontent-image">
                                                 {/* Image Square */}
-                                                <img src={require("../../assets/images/wine.png")} />
+                                                <img src={require("../../assets/images/wine.jpg")} />
                                             </div>
                                         </div>
                                         <div className="clear" />
@@ -159,7 +165,7 @@ export default class Landing extends Component {
                         </div>
                         {/* Video */}
                         <div className="content-video">
-                            <iframe width="704" height="396" src="https://www.youtube.com/embed/fjfloV_y3PQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="704" height="396" src="https://www.youtube.com/embed/fjfloV_y3PQ?rel=0&amp;controls=0&amp;showinfo=0" frameBorder="0" allowFullScreen></iframe>
                         </div>
                     </div>
 

@@ -1,10 +1,10 @@
-.landing-container {
+.landing-container.desktop {
     .landing-content {
         .content.cover {
             position: relative;
             height: 100vh;
             background: no-repeat center 40%;
-            background-image: url("../assets/images/alexsaerom-cover.png");
+            background-image: url("../assets/images/alexsaerom-cover.jpg");
             background-size: cover;
             text-align: center;
             .cover-dim {
@@ -33,6 +33,7 @@
             text-align: center;
             .content-wrapper {
                 max-width: 1280px;
+                margin: 0 auto;
                 .content-title {
                     margin-top: 10rem;
                     display: inline-block;
